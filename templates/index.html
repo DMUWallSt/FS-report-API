@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>기업 재무 정보 검색</title>
+</head>
+<body>
+<h1>기업 재무 정보 검색</h1>
+<form action="/search" method="post">
+    <input type="text" name="company_name" placeholder="기업명을 입력하세요">
+    <input type="submit" value="검색">
+
+    {{ company_name }} 점수: {{ score }}
+</form>
+</body>
+</html>
